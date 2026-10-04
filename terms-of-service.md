@@ -1,76 +1,107 @@
-# Conditions d'utilisation — Modmail
+# Conditions d'utilisation — NatMail, NatGuard, NatUtils
 
-**Dernière mise à jour : 30 juillet 2026**
+**Dernière mise à jour : 4 octobre 2026**
 
-En utilisant le bot Discord **Modmail** (« le Bot »), vous acceptez les conditions
-ci-dessous. Si vous ne les acceptez pas, n'utilisez pas le Bot.
+Ces conditions s'appliquent aux trois bots Discord **NatMail**, **NatGuard** et
+**NatUtils** (« les Bots »). En utilisant l'un d'eux, ou en l'installant sur votre
+serveur, vous les acceptez. Si vous ne les acceptez pas, n'utilisez pas les Bots.
 
 ---
 
-## 1. Objet du service
+## 1. Qui propose les Bots
 
-Le Bot est un système de **ModMail**. Il permet à un membre d'une communauté de
-contacter l'équipe de modération par message privé, et relaie la conversation dans
-un salon dédié côté équipe. Il permet également d'associer plusieurs joueurs à un
-même ticket, de transférer un ticket entre équipes ou entre supports, et de
-recueillir un avis à la clôture.
+Les Bots sont développés et hébergés par **Aparn Studios**, un projet
+communautaire indépendant et non commercial.
+
+Ils ne sont **ni édités, ni approuvés, ni soutenus par NationsGlory**. Ce sont
+des outils faits par des joueurs, pour les serveurs Discord des joueurs.
+
+---
+
+## 2. Ce que font les Bots
+
+| Bot | Rôle |
+|---|---|
+| **NatMail** | Tickets et demandes. Un membre contacte l'équipe d'un serveur par message privé ; la conversation est relayée dans un salon dédié côté équipe. Plusieurs joueurs peuvent être associés à un même ticket, un ticket peut être transféré, et un avis peut être laissé à la clôture. |
+| **NatGuard** | Protection du serveur Discord sur lequel il est installé. |
+| **NatUtils** | Tutoriels et aide aux nouveaux joueurs, avec un wiki consultable depuis Discord. |
+
+Les Bots peuvent afficher des **données de jeu publiques** (pays, grade, etc.)
+issues de l'API publique de NationsGlory, et le compte **Recube** qu'un joueur a
+choisi de lier.
 
 Le service est fourni **gratuitement** et **en l'état**.
 
 ---
 
-## 2. Conditions préalables
+## 3. Conditions préalables
 
 - Vous devez respecter les
   [conditions d'utilisation de Discord](https://discord.com/terms) et les
   [règles de la communauté Discord](https://discord.com/guidelines).
-- Vous devez être membre d'un serveur communautaire sur lequel le Bot est
-  configuré pour pouvoir ouvrir un ticket.
+- Pour ouvrir un ticket avec NatMail, vous devez être membre d'un serveur sur
+  lequel il est configuré.
+- Pour installer un Bot sur un serveur, vous devez y avoir les permissions
+  nécessaires. Vous êtes alors responsable de sa configuration et de l'usage
+  qu'en fait votre équipe.
 
 ---
 
-## 3. Usage acceptable
+## 4. Usage acceptable
 
-En utilisant le Bot, vous vous engagez à **ne pas** :
+En utilisant les Bots, vous vous engagez à **ne pas** :
 
 - ouvrir de tickets sans objet réel, répétitifs ou destinés à saturer le service ;
 - transmettre des contenus illégaux, haineux, harcelants, menaçants ou à caractère
   sexuel impliquant des mineurs ;
-- usurper l'identité d'un tiers, y compris d'un membre de l'équipe ;
-- tenter d'exploiter, contourner ou perturber le fonctionnement du Bot ;
-- utiliser le Bot pour diffuser du spam, de la publicité non sollicitée ou des
+- usurper l'identité d'un tiers, y compris d'un membre d'une équipe, ni lier un
+  compte de jeu ou un compte Recube qui n'est pas le vôtre ;
+- tenter d'exploiter, de contourner ou de perturber le fonctionnement des Bots ;
+- utiliser les Bots pour diffuser du spam, de la publicité non sollicitée ou des
   liens malveillants ;
 - ajouter un tiers à un ticket dans le but de le harceler ou de l'exposer sans
-  raison légitime.
+  raison légitime ;
+- collecter en masse, ou revendre, les données affichées par les Bots.
 
 ---
 
-## 4. Modération et sanctions
+## 5. Modération et sanctions
 
-L'équipe se réserve le droit, sans préavis :
+L'équipe de chaque serveur décide de la manière dont elle traite les demandes
+reçues sur son serveur. Elle peut, sans préavis :
 
-- de refuser, clôturer ou transférer tout ticket ;
-- de refuser une demande d'ajout de joueur, de départ ou de clôture ;
-- de restreindre l'accès d'un utilisateur au service en cas d'usage abusif ;
-- d'appliquer des sanctions sur le serveur communautaire conformément à son
-  règlement.
+- refuser, clôturer ou transférer tout ticket ;
+- refuser une demande d'ajout de joueur, de départ ou de clôture ;
+- appliquer des sanctions conformément au règlement de son serveur.
 
----
-
-## 5. Contenu des échanges
-
-Vous restez responsable du contenu que vous transmettez via le Bot. Les messages
-échangés dans un ticket sont **visibles par les membres de l'équipe** disposant
-des permissions sur le salon concerné, ainsi que par les joueurs ayant accepté
-d'être ajoutés au ticket.
-
-N'y transmettez aucune information sensible dont vous ne souhaitez pas qu'elle
-soit lue par l'équipe (mot de passe, coordonnées bancaires, pièce d'identité).
-L'équipe ne vous demandera jamais votre mot de passe.
+Aparn Studios peut restreindre ou retirer l'accès aux Bots à un utilisateur ou à
+un serveur en cas d'usage abusif.
 
 ---
 
-## 6. Données personnelles
+## 6. Contenu des échanges
+
+Vous restez responsable du contenu que vous transmettez via les Bots. Les messages
+échangés dans un ticket sont **visibles par les membres de l'équipe** du serveur
+concerné, ainsi que par les joueurs ayant accepté d'être ajoutés au ticket. Une
+transcription du ticket est conservée à sa clôture (voir la Politique de
+confidentialité).
+
+N'y transmettez aucune information sensible (mot de passe, coordonnées bancaires,
+pièce d'identité). Personne ne vous demandera jamais votre mot de passe par
+l'intermédiaire des Bots.
+
+---
+
+## 7. Données de jeu
+
+Les données de jeu affichées proviennent de sources tierces (API publique de
+NationsGlory, Recube). Elles peuvent être incomplètes, en retard ou indisponibles.
+Les Bots n'offrent aucune garantie sur leur exactitude.
+
+---
+
+## 8. Données personnelles
 
 Le traitement des données est décrit dans la
 [Politique de confidentialité](./privacy-policy.md), qui fait partie intégrante des
@@ -78,33 +109,33 @@ présentes conditions.
 
 ---
 
-## 7. Disponibilité
+## 9. Disponibilité
 
-Le Bot peut être indisponible, interrompu ou modifié à tout moment, notamment pour
-maintenance, mise à jour, panne d'hébergement ou incident côté Discord. Aucune
-garantie de disponibilité ou de délai de réponse n'est offerte.
+Les Bots peuvent être indisponibles, interrompus ou modifiés à tout moment,
+notamment pour maintenance, mise à jour, panne d'hébergement ou incident côté
+Discord. Aucune garantie de disponibilité ou de délai de réponse n'est offerte.
 
 L'ouverture d'un ticket **ne garantit pas** une réponse, ni un délai de traitement,
 ni une issue favorable à la demande.
 
 ---
 
-## 8. Limitation de responsabilité
+## 10. Limitation de responsabilité
 
-Le Bot est fourni « en l'état », sans garantie d'aucune sorte. Dans les limites
-autorisées par la loi, l'exploitant ne saurait être tenu responsable de tout
+Les Bots sont fournis « en l'état », sans garantie d'aucune sorte. Dans les limites
+autorisées par la loi, Aparn Studios ne saurait être tenu responsable de tout
 dommage direct ou indirect résultant de l'utilisation ou de l'impossibilité
 d'utiliser le service, ni de la perte de messages ou de données.
 
 ---
 
-## 9. Modifications
+## 11. Modifications
 
 Ces conditions peuvent évoluer. La date de dernière mise à jour figure en tête de
-document. L'usage continu du Bot après modification vaut acceptation.
+document. L'usage continu des Bots après modification vaut acceptation.
 
 ---
 
-## 10. Contact
+## 12. Contact
 
 Pour toute question relative à ces conditions : contact.aparnstudios@gmail.com
