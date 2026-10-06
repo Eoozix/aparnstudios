@@ -1,13 +1,13 @@
-# Politique de confidentialité — NatMail, NatGuard, NatUtils
+# Politique de confidentialité — ApMail, ApGuard, ApUtils
 
-**Dernière mise à jour : 4 octobre 2026**
+**Dernière mise à jour : 6 octobre 2026**
 
-Ce document décrit les données que les bots Discord **NatMail**, **NatGuard** et
-**NatUtils** (« les Bots ») collectent, pourquoi ils les collectent, combien de
+Ce document décrit les données que les bots Discord **ApMail**, **ApGuard** et
+**ApUtils** (« les Bots ») collectent, pourquoi ils les collectent, combien de
 temps elles sont conservées, et comment en demander la suppression.
 
-Les Bots sont un projet communautaire indépendant. Ils ne sont **ni édités ni
-approuvés par NationsGlory**.
+Les Bots sont développés par Aparn Studios. Ils ne sont **ni édités ni approuvés**
+par Discord, NationsGlory, Roblox ou Recube.
 
 ---
 
@@ -24,7 +24,7 @@ L'équipe de chaque serveur Discord qui installe un Bot accède aux données de
 
 ## 2. Données collectées, bot par bot
 
-### 2.1 NatMail — tickets et demandes
+### 2.1 ApMail — tickets et demandes
 
 **Fournies volontairement.** À l'ouverture d'un ticket, un formulaire demande :
 
@@ -65,29 +65,34 @@ par chacun d'eux. Elle se supprime à tout moment (voir section 6).
 La tête du personnage d'un joueur peut être affichée à côté de son pseudo ; elle
 est mise en cache au plus **24 heures**.
 
-### 2.3 NatGuard — protection
+### 2.3 ApGuard — protection
 
-À la date de ce document, NatGuard n'enregistre **aucune donnée personnelle**. Il
+À la date de ce document, ApGuard n'enregistre **aucune donnée personnelle**. Il
 ne conserve que la configuration du serveur sur lequel il est installé.
 
-### 2.4 NatUtils — tutoriels et wiki
+### 2.4 ApUtils — tutoriels et wiki
 
-À la date de ce document, NatUtils n'enregistre **aucune donnée personnelle**. Il
+À la date de ce document, ApUtils n'enregistre **aucune donnée personnelle**. Il
 ne conserve que la configuration du serveur sur lequel il est installé.
 
-Si NatGuard ou NatUtils venaient à collecter d'autres données, cette politique
+Si ApGuard ou ApUtils venaient à collecter d'autres données, cette politique
 sera mise à jour **avant** la mise en service de la fonctionnalité concernée.
 
 ### 2.5 Données de jeu publiques
 
-Les Bots peuvent interroger l'**API publique de NationsGlory** pour afficher des
-données de jeu publiques (pays d'un joueur, grade, fiche d'un pays, classements…).
-Ces données sont déjà publiques sur le site de NationsGlory ; les Bots les lisent
+Selon les modules activés sur un Bot, il peut interroger :
+
+- l'**API publique de NationsGlory** : pays d'un joueur, grade, fiche d'un pays,
+  classements ;
+- les **API de Roblox** : état d'un jeu (joueurs connectés, visites) et compte
+  public d'un joueur à partir de son pseudo.
+
+Ces données sont déjà publiques sur les sites concernés ; les Bots les lisent
 sans rien y écrire.
 
 ### 2.6 Ce que les Bots ne collectent pas
 
-NatMail ne lit **aucun** message en dehors des messages privés qui lui sont
+ApMail ne lit **aucun** message en dehors des messages privés qui lui sont
 directement adressés et des salons de ticket qu'il a lui-même créés. Les Bots ne
 collectent ni adresse e-mail, ni adresse IP, ni donnée de paiement, ni mot de
 passe, ni historique de navigation.
@@ -133,9 +138,9 @@ Les données transitent ou résident chez :
   [politique de confidentialité de Discord](https://discord.com/privacy) ;
 - le **serveur qui exécute les Bots** (fichiers d'état, transcriptions, base des
   liaisons), qui n'est pas exposé publiquement ;
-- **Recube** et l'**API publique de NationsGlory**, auxquels les Bots envoient
-  uniquement le pseudo ou l'identifiant à consulter, pour lire des informations
-  publiques.
+- **Recube**, l'**API publique de NationsGlory** et **Roblox**, auxquels les
+  Bots envoient uniquement le pseudo ou l'identifiant à consulter, pour lire des
+  informations publiques.
 
 Le contenu d'un ticket et sa transcription sont visibles par les membres de
 l'équipe du serveur concerné, et par les joueurs ayant accepté d'être ajoutés au
@@ -153,7 +158,7 @@ Vous pouvez à tout moment demander :
 - la **limitation** ou l'**opposition** au traitement.
 
 La liaison d'un compte Recube se supprime directement depuis Discord, avec la
-commande de déliaison de NatMail. Pour le reste, écrivez à l'adresse indiquée en
+commande de déliaison d'ApMail. Pour le reste, écrivez à l'adresse indiquée en
 section 1 ; la demande est traitée dans un délai raisonnable. Les entrées de
 journal et les transcriptions d'un serveur peuvent aussi être supprimées par
 l'équipe de ce serveur.

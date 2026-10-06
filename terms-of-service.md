@@ -1,20 +1,20 @@
-# Conditions d'utilisation — NatMail, NatGuard, NatUtils
+# Conditions d'utilisation — ApMail, ApGuard, ApUtils
 
-**Dernière mise à jour : 4 octobre 2026**
+**Dernière mise à jour : 6 octobre 2026**
 
-Ces conditions s'appliquent aux trois bots Discord **NatMail**, **NatGuard** et
-**NatUtils** (« les Bots »). En utilisant l'un d'eux, ou en l'installant sur votre
+Ces conditions s'appliquent aux trois bots Discord **ApMail**, **ApGuard** et
+**ApUtils** (« les Bots »). En utilisant l'un d'eux, ou en l'installant sur votre
 serveur, vous les acceptez. Si vous ne les acceptez pas, n'utilisez pas les Bots.
 
 ---
 
 ## 1. Qui propose les Bots
 
-Les Bots sont développés et hébergés par **Aparn Studios**, un projet
-communautaire indépendant et non commercial.
+Les Bots sont développés et hébergés par **Aparn Studios**.
 
-Ils ne sont **ni édités, ni approuvés, ni soutenus par NationsGlory**. Ce sont
-des outils faits par des joueurs, pour les serveurs Discord des joueurs.
+Certaines fonctions s'appuient sur des services tiers — Discord, NationsGlory,
+Roblox, Recube. Les Bots ne sont **ni édités, ni approuvés, ni soutenus** par
+ces services.
 
 ---
 
@@ -22,13 +22,14 @@ des outils faits par des joueurs, pour les serveurs Discord des joueurs.
 
 | Bot | Rôle |
 |---|---|
-| **NatMail** | Tickets et demandes. Un membre contacte l'équipe d'un serveur par message privé ; la conversation est relayée dans un salon dédié côté équipe. Plusieurs joueurs peuvent être associés à un même ticket, un ticket peut être transféré, et un avis peut être laissé à la clôture. |
-| **NatGuard** | Protection du serveur Discord sur lequel il est installé. |
-| **NatUtils** | Tutoriels et aide aux nouveaux joueurs, avec un wiki consultable depuis Discord. |
+| **ApMail** | Tickets et demandes. Un membre contacte l'équipe d'un serveur par message privé ; la conversation est relayée dans un salon dédié côté équipe. Plusieurs joueurs peuvent être associés à un même ticket, un ticket peut être transféré, et un avis peut être laissé à la clôture. |
+| **ApGuard** | Protection du serveur Discord sur lequel il est installé. |
+| **ApUtils** | Tutoriels, aide et outils, avec un wiki consultable depuis Discord. |
 
-Les Bots peuvent afficher des **données de jeu publiques** (pays, grade, etc.)
-issues de l'API publique de NationsGlory, et le compte **Recube** qu'un joueur a
-choisi de lier.
+Chaque Bot peut recevoir des **modules** liés à un jeu — NationsGlory, Roblox.
+Quand un module est activé, le Bot peut afficher des **données de jeu publiques**
+(pays et grade d'un joueur, état d'un jeu Roblox, etc.), et le compte **Recube**
+qu'un joueur a choisi de lier.
 
 Le service est fourni **gratuitement** et **en l'état**.
 
@@ -39,7 +40,7 @@ Le service est fourni **gratuitement** et **en l'état**.
 - Vous devez respecter les
   [conditions d'utilisation de Discord](https://discord.com/terms) et les
   [règles de la communauté Discord](https://discord.com/guidelines).
-- Pour ouvrir un ticket avec NatMail, vous devez être membre d'un serveur sur
+- Pour ouvrir un ticket avec ApMail, vous devez être membre d'un serveur sur
   lequel il est configuré.
 - Pour installer un Bot sur un serveur, vous devez y avoir les permissions
   nécessaires. Vous êtes alors responsable de sa configuration et de l'usage
@@ -96,7 +97,8 @@ l'intermédiaire des Bots.
 ## 7. Données de jeu
 
 Les données de jeu affichées proviennent de sources tierces (API publique de
-NationsGlory, Recube). Elles peuvent être incomplètes, en retard ou indisponibles.
+NationsGlory, Roblox, Recube). Elles peuvent être incomplètes, en retard ou
+indisponibles.
 Les Bots n'offrent aucune garantie sur leur exactitude.
 
 ---
