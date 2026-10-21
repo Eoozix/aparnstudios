@@ -1,0 +1,43 @@
+<!doctype html>
+<!--
+  Page relais de la connexion Roblox, publiée par GitHub Pages
+  (dépôt public Eoozix/aparnstudios, fichier link/index.html) :
+  https://eoozix.github.io/aparnstudios/link/
+
+  Roblox refuse les adresses en workers.dev comme page de retour. Il renvoie
+  donc le membre ici, et cette page le passe aussitôt au Worker
+  (serveur/roblox-link-worker.js) avec ce que Roblox a mis dans l'adresse
+  (code, state, ou error). Elle ne garde rien et ne connaît aucun secret.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>Linking your Roblox account</title>
+<style>
+  body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #0d0b07;
+         color: #f5ecd6; font: 16px/1.5 system-ui, sans-serif; }
+  main { max-width: 420px; margin: 24px; padding: 28px; border-radius: 18px; text-align: center;
+         background: #1a160d; border: 1px solid rgba(255, 201, 60, 0.35); }
+  h1 { margin: 0 0 8px; font-size: 22px; color: #ffc93c; }
+  p { margin: 0; color: #cfc4a8; }
+</style>
+<script>
+  // Seuls les paramètres de Roblox passent, et seulement vers notre Worker.
+  var WORKER = "https://roblox-link.aparnstudios.workers.dev/roblox/callback";
+  var given = new URLSearchParams(location.search);
+  var forward = new URLSearchParams();
+  ["code", "state", "error"].forEach(function (name) {
+    if (given.has(name)) forward.set(name, given.get(name));
+  });
+  location.replace(WORKER + "?" + forward.toString());
+</script>
+</head>
+<body>
+<main>
+  <h1>Linking your Roblox account…</h1>
+  <p>One moment. If nothing happens, turn on JavaScript, then click the Link Roblox button again.</p>
+</main>
+</body>
+</html>
