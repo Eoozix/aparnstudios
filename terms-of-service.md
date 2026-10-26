@@ -1,9 +1,9 @@
-# Conditions d'utilisation — ApMail, ApGuard, ApUtils
+# Conditions d'utilisation — ApMail, ApGuard, ApUtils, ApLFG
 
-**Dernière mise à jour : 6 octobre 2026**
+**Dernière mise à jour : 26 octobre 2026**
 
-Ces conditions s'appliquent aux trois bots Discord **ApMail**, **ApGuard** et
-**ApUtils** (« les Bots »). En utilisant l'un d'eux, ou en l'installant sur votre
+Ces conditions s'appliquent aux bots Discord **ApMail**, **ApGuard**, **ApUtils**
+et **ApLFG** (« les Bots »). En utilisant l'un d'eux, ou en l'installant sur votre
 serveur, vous les acceptez. Si vous ne les acceptez pas, n'utilisez pas les Bots.
 
 ---
@@ -25,6 +25,7 @@ ces services.
 | **ApMail** | Tickets et demandes. Un membre contacte l'équipe d'un serveur par message privé ; la conversation est relayée dans un salon dédié côté équipe. Plusieurs joueurs peuvent être associés à un même ticket, un ticket peut être transféré, et un avis peut être laissé à la clôture. |
 | **ApGuard** | Protection du serveur Discord sur lequel il est installé. |
 | **ApUtils** | Tutoriels, aide et outils, avec un wiki consultable depuis Discord. |
+| **ApLFG** | Recherche de coéquipiers pour Car League : demandes de groupe, candidatures et réponses, sur le serveur LFG ou depuis les messages privés. |
 
 Chaque Bot peut recevoir des **modules** liés à un jeu — NationsGlory, Roblox.
 Quand un module est activé, le Bot peut afficher des **données de jeu publiques**
